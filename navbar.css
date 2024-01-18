@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containeer
+{
+    height: 100px;
+    width: 100%;
+    background-color: #e48639;
+    color: white;
+}
+.unoder_list{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.unoder_list >li >a{
+    text-decoration: none;
+    height: 30px;
+    width: 60px;
+    /* background-color: black; */
+    padding-top: 10px;
+    color: whitesmoke;
+}
+.unoder_list >li>a:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 20px palegreen;
+    border-radius: 25px;
+}
+ .unoder_list >li {
+    height: 30px;
+    display: flex;
+    text-align: center;
+    /* padding-top: 10px; */
+    width: 60px;
+ }
